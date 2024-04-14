@@ -62,9 +62,11 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bxs-hot"></i> <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#certifications" class="nav-link scrollto"><i class="bx bx-certification"></i> <span>Certifications</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -185,29 +187,38 @@
         </div>
         <div class="row skills-content skillset_flexbox_gap">
           <div class="col-lg-12 skill-container">
-            <i class="bi bi-chevron-right"></i> <strong>Programming Skills & Frameworks:</strong><span> Python, R
-              Programming, C++, Flask, Django</span>
+            <i class="bi bi-chevron-right"></i> <strong>Programming Skills :</strong><span> Java (OOPS), Python, JavaScript,C</span>
+          </div>
+          <div class="col-lg-12 skill-container-white">
+            <i class="bi bi-chevron-right"></i> <strong>Frontend :</strong><span> HTML, CSS, ReactJS, Bootstrap</span>
+          </div>
+          <div class="col-lg-12 skill-container">
+            <i class="bi bi-chevron-right"></i> <strong>Backend :</strong><span> NodeJS, ExpressJS, Springboot</span>
           </div>
           <div class="skill-container-white">
-            <i class="bi bi-chevron-right"></i> <strong>Databases & ETL Tools:</strong><span> Tableau, SnowSQL, Alteryx,
-              Informatica, MySQL, NoSQL, Hive, Neo4j Cypher</span>
+            <i class="bi bi-chevron-right"></i> <strong>API: </strong><span> Axway API Builder, RESTful APIs, OAuth 2.0, GraphQL, Postman</span>
           </div>
           <div class="skill-container">
-            <i class="bi bi-chevron-right"></i> <strong>AWS Cloud:</strong><span> AWS S3, AWS Glue, AWS Quicksight, AWS
-              Athena, AWS Lambda, AWS Sagemaker, AWS Rekognition</span>
+            <i class="bi bi-chevron-right"></i> <strong>Design Tools:</strong><span> Stoplight, Figma, Moqups, Balsamiq, Axure RP</span>
           </div>
           <div class="skill-container-white">
-            <i class="bi bi-chevron-right"></i> <strong>ML/DL Concepts: </strong><span> Predictive Modelling, Ensemble
-              Models, Text Analysis, Image, and Sound Analysis, Hyperparameter Tuning</span>
+            <i class="bi bi-chevron-right"></i> <strong>Databases & Visualization Tools:</strong><span>  MySQL, MongoDB, OracleDB, PostgreSQL, Tableau, 
+              Informatica</span>
           </div>
           <div class="skill-container">
-            <i class="bi bi-chevron-right"></i> <strong>Deployment Skills:</strong><span> Azure, Containers, Kubernetes,
-              Docker, Jenkins, Gitlab, GitHub, CI/CD pipeline</span>
+            <i class="bi bi-chevron-right"></i> <strong>AWS Cloud:</strong><span> AWS S3, AWS CloudFormation, AWS Quicksight, AWS
+              Athena, AWS Lambda, AWS Sagemaker</span>
           </div>
+         
           <div class="skill-container-white">
+            <i class="bi bi-chevron-right"></i> <strong>Deployment Skills:</strong><span> Kubernetes,
+              Docker, Jenkins, Gitlab, GitHub, CI/CD pipeline, Bash Scripting, RedHat OpenShift</span>
+          </div>
+          <div class="skill-container">
             <i class="bi bi-chevron-right"></i> <strong>Project Management Skills:</strong><span> Agile & Waterfall
-              Methodologies, Atlassian JIRA, Training co-ordinator</span>
+              Methodologies, Bitbucket, Git, Jira, Confluence, Klaxoon,Excel, A/B Testing</span>
           </div>
+         
         </div>
     </section><!-- End Skills Section -->
 
@@ -338,16 +349,17 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-web">Web Development</li>
+              <li data-filter=".filter-ux">UX Design & Research</li>
+              <li data-filter=".filter-data">Analytics & Database management</li>
+              <li data-filter=".filter-others">Others</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ux">
             <div class="portfolio-wrap">
               <h5>Trawell Application - Product UX Design using Figma</h5>
               <!-- <img src="assets/img/portfolio/onbaording.png" class="img-fluid" alt=""> -->
@@ -363,7 +375,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-data">
             <div class="portfolio-wrap">
               <h5>
                 Vehicle Insurance Policy Database Management System</h5>
@@ -375,7 +387,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-data">
             <div class="portfolio-wrap">
               <h5>Soccer data analytics -FIFA</h5>
               <img src="assets/img/portfolio/soccerDA (1).jpeg" class="img-fluid" alt="">
@@ -386,7 +398,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <h5>WeCare - A charity Management  Web Application</h5>
               <img src="assets/img/portfolio/Mainframe Wallpaper (1).jpg" class="img-fluid" alt="">
@@ -397,7 +409,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
             <div class="portfolio-wrap">
               <h5>Internet of Things (IoT) based interactive wireless security system</h5>
               <img src="assets/img/portfolio/IOT (1).png" class="img-fluid" alt="">
@@ -408,7 +420,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <h5>Animal Adoption Website - ReactJS</h5>
               <img src="assets/img/portfolio/pups (1).jpg" class="img-fluid" alt="">
