@@ -21,8 +21,6 @@ body {
   height: 100%;
 }
 
-
-
 a {
   color: #149ddd;
   text-decoration: none;
@@ -250,9 +248,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/IMG_1331.JPEG") center;
-  background-size: cover ;
-  transform:scale(1);
+  background: url("../img/CodingBG.jpg") center;
+  background-size: cover;
+  transform: scale(1);
 }
 
 #hero:before {
@@ -1122,23 +1120,22 @@ section {
 }
 
 .skill-container {
-  border: 1px solid #7DB6E4;
-  background-color: #7DB6E4;
+  border: 1px solid #7db6e4;
+  background-color: #7db6e4;
   padding: 10px;
   border-radius: 20px;
 }
 .skill-container-white {
-  border: 1px solid #D4E6F1;
-  background-color: #D4E6F1;
+  border: 1px solid #d4e6f1;
+  background-color: #d4e6f1;
   padding: 10px;
   border-radius: 20px;
 }
 
-.skillset_flexbox_gap{
+.skillset_flexbox_gap {
   gap: 1rem;
 }
 
-
-.subdivision_bullet_points > li{
+.subdivision_bullet_points > li {
   list-style-type: disc;
 }
