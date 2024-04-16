@@ -1139,3 +1139,10 @@ section {
 .subdivision_bullet_points > li {
   list-style-type: disc;
 }
+
+
+
+.certifications-content .col-lg-4 {
+  margin-bottom: 20px; /* Adjust as needed for spacing */
+}
+
