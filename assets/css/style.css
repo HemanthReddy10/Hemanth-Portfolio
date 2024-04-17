@@ -1142,7 +1142,32 @@ section {
 
 
 
-.certifications-content .col-lg-4 {
-  margin-bottom: 20px; /* Adjust as needed for spacing */
+
+
+
+
+
+
+/* Add shadow and transition effect to the image container */
+.image-container {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
 }
 
+/* Add zoom effect on hover */
+.image-container:hover {
+  transform: scale(1.1);
+}
+
+/* Style for the image */
+#certifications .img-thumbnail {
+  display: block;
+  width: 60%;
+  height: 60%;
+}
+
+.image-fluid{
+  
+}
