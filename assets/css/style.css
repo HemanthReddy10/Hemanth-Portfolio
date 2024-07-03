@@ -9,6 +9,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -1171,3 +1174,16 @@ section {
 .image-fluid{
   
 }
+
+.tech-stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+.tech-stack-list p {
+  margin-right: 1rem;
+}
+.tech-stack-list li {
+  margin-right: 20px;
+  font-size: 1.5rem;
